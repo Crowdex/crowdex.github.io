@@ -84,7 +84,7 @@ body {
 }
 
 body {
-    font-family: "Lato";
+    font-family: "Titillium Web", sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -115,7 +115,7 @@ margin-left: -15px;
 }
 
 
-.navbar-default {
+/*.navbar-default {
 border-color: transparent;
 background-color: #dadada;
 }
@@ -130,8 +130,115 @@ border: 0px solid transparent;
 .navbar-default .navbar-nav > li > a:focus {
 	background-color: #16a085;
 	color: white;
+}*/
+
+/* Zaciatok Munter */
+.navbar {
+	background-color: #e4e6e5;
+	background-color: rgba( 228, 230, 229, .85 );
+	border-bottom: 0 none;
+	font-size: 12px;
+	transition: .25s all linear;
 }
 
+.navbar.inv {
+	background-color: rgba( 0, 0, 0, .5 );
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.navbar .nav a {
+	color: #5f5f5f;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 600;
+	transition: all .5 linear;
+}
+
+.navbar.inv a {
+	color: #e4e6e5;
+}
+
+
+.navbar-responsive-collapse {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.nav li {
+	text-align: center;
+	white-space: nowrap;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background-color: inherit;
+	outline: none;
+}
+
+.navbar-brand {
+	padding: 8px;
+}
+
+@media (max-width: 767px) {
+	
+	.nav li {
+		text-align: left;
+		white-space: nowrap;
+	}
+	
+	.navbar-responsive-collapse  {
+		width: 100%;
+	}
+	
+	.active-menu {
+		display: none !important;
+	}
+	
+	.navbar-toggle {
+		margin-right: 10px;
+	}
+	
+	.navbar {
+		background-color: #e4e6e5 !important;
+		padding: 0;
+	}
+	
+	.navbar .nav a {
+		color: #e4e6e5;
+		font-size: 16px;
+		padding-left: 0;
+	}
+	
+	.icon {
+		margin-right: 12px;
+	}
+			
+	.nav li[data-slide="1"],
+	.nav li[data-slide="6"] {
+		background-color: #2f2f2f;
+	}
+	
+	.nav li[data-slide="2"] {
+		background-color: #1abc9c;
+	}
+	
+	.nav li[data-slide="3"] {
+		background-color: #e74c3c;
+	}
+	
+	.nav li[data-slide="4"] {
+		background-color: #34495e;
+	}
+	
+	.nav li[data-slide="5"] {
+		background-color: #e67e22;
+	}
+	
+	.navbar-brand {
+		margin: 0;
+		text-align: left;
+	}
+}
+/* Koniec Munter */
 
 
 hr {
@@ -159,7 +266,7 @@ a img {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "Titillium Web", sans-serif;
     font-weight: 300;
     color: #333;
 }
@@ -191,7 +298,7 @@ em {
 pre {
     background: #ebebeb;
     border: none;
-    font-family: "Monaco";
+    font-family: "Monaco", monospace;
     font-size: 16px;
     color: #666;
     padding: 20px;
@@ -467,7 +574,7 @@ a:after {
 }
 
 .service-active p {
-	font-family: 'Lato', sans-serif;
+	font-family: "Titillium Web", sans-serif;
 	padding-top: 10px;
 }
 
