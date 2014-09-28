@@ -290,6 +290,24 @@ p {
     margin-bottom: 25px;
 }
 
+p.justify {
+    text-align: justify;
+}
+
+p.bigger {
+    font-size: 1.2em;
+    line-height: 34px;
+}
+
+@media  screen and (max-width:768px) {
+    
+    p.bigger {
+        font-size: 1.1em;
+        line-height: 30px;
+    }
+    
+}
+
 .centered {
     text-align: center;
 }
@@ -535,11 +553,11 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/divider1.jpg')
+	background-image: url('../img/headline1.jpg')
 }
 
 .divider2 {
-	background-image: url('../img/bg/divider2.jpg')
+	background-image: url('../img/headline2.jpg')
 }
 
 .divider3 {
