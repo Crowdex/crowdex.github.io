@@ -135,10 +135,11 @@ border: 0px solid transparent;
 /* Zaciatok Munter */
 .navbar {
 	background-color: #e4e6e5;
-	background-color: rgba( 228, 230, 229, .85 );
+	background-color: rgba( 255, 255, 255, .75 );
 	border-bottom: 0 none;
-	font-size: 12px;
+	font-size: 15px;
 	transition: .25s all linear;
+    text-transform: uppercase;
 }
 
 .navbar.inv {
@@ -147,7 +148,7 @@ border: 0px solid transparent;
 }
 
 .navbar .nav a {
-	color: #5f5f5f;
+	color: #f5f5f5;
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 600;
 	transition: all .5 linear;
@@ -157,6 +158,13 @@ border: 0px solid transparent;
 	color: #e4e6e5;
 }
 
+.navbar-inverse .navbar-nav > li > a {
+    color: #6b6b6b;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #a0a0a0;
+}
 
 .navbar-responsive-collapse {
 	margin: 0 auto;
@@ -176,6 +184,11 @@ border: 0px solid transparent;
 
 .navbar-brand {
 	padding: 8px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -198,14 +211,13 @@ border: 0px solid transparent;
 	}
 	
 	.navbar {
-		background-color: #e4e6e5 !important;
+		/*background-color: #e4e6e5 !important;*/
 		padding: 0;
 	}
 	
 	.navbar .nav a {
 		color: #e4e6e5;
 		font-size: 16px;
-		padding-left: 0;
 	}
 	
 	.icon {
@@ -403,7 +415,7 @@ a:after {
 	margin-top: 90px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
-	font-size: 100px;
+	font-size: 130px;
 	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
 }
@@ -417,6 +429,10 @@ a:after {
 	letter-spacing: 3px;
 	margin-left: 15px;
 	text-shadow: 1px 1px 1px #000;
+}
+
+#headerwrap p.subtitle {
+    font-size: 20px;
 }
 
 #greywrap {
