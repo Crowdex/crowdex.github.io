@@ -35,9 +35,9 @@ var teamData = [
     },
     
     { id: 6, name: "Bc. Slavomír Šárik", linkedin: "https://www.linkedin.com/pub/slavom%C3%ADr-%C5%A1%C3%A1rik/96/4b1/610", github: "slavosarik",
-      profileData: [ "Bakalársky projekt Vytváranie databázových SQL dopytov v prirodzenom jazyku, Java, MySQL.",
+      profileData: [ "Bakalársky projekt Vytváranie databázových SQL dopytov v prirodzenom jazyku (Java, MySQL).",
                      "Pracovná skúsenosť v startupe s RubyOnRails.",
-                     "Má skúsenosti s Javou, SQL databázami a webovými aplikáciami v Jave a RubyOnRails.",
+                     "Má skúsenosti s C, Javou, SQL databázami a webovými aplikáciami v Jave a RubyOnRails.",
                      "Zaujíma sa o mobilné technológie a hardware.",
                      "Baví ho jazda na motokárach a horskom bicykli."
                    ]
