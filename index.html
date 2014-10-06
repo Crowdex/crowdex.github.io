@@ -220,21 +220,17 @@
                             <img rel="team-user-picture" class="img img-circle" src="assets/img/team/1.jpg" height="80px" width="80px" alt="" />
                         </div>
                         <div class="profile-details pull-left">
-                            <div rel="team-user-name" class="name">Jožko Mrkvička</div>
+                            <div rel="team-user-name" class="name"></div>
                             <div rel="team-user-links" class="links">
                                 <a class="link linkedin" href=""><i class="fa fa-linkedin"></i> <span>Pracovný profil</span></a>
-                                <a class="link github" href=""><i class="fa fa-github"></i> <span>nick.na.githube</span></a>
+                                <a class="link github" href=""><i class="fa fa-github"></i> <span></span></a>
                             </div>
                         </div>
                     </div>
                     <div class="modal-profiles-body">
                         <div class="modal-profiles-arrow"></div>
                         <ul rel="team-user-data">
-                            <li>Bakalársky projekt Vytváranie databázových SQL dopytov v prirodzenom jazyku, Java, MySQL.</li>
-                            <li>Pracovná skúsenosť v startupe s RubyOnRails.</li>
-                            <li>Má skúsenosti s Javou, SQL databázami a webovými aplikáciami v Jave a RubyOnRails.</li>
-                            <li>Zaujíma sa o mobilné technológie a hardware.</li>
-                            <li>Baví ho jazda na motokárach a horskom bicykli.</li>
+                            
                         </ul>
                     </div>
                     <div class="modal-profiles-footer">
@@ -274,107 +270,37 @@
 		</div>
 		<div class="container">
 			<div class="row">	
-				<!-- PORTFOLIO IMAGE 1 -->
-				<div class="col-md-4 ">
-					<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt="">
-							<figcaption>
-								<h5>DASHBOARD</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-
-				<!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
-					a modal for each of your projects. -->
-
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-					<div class="modal-dialog">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h4 class="modal-title">Project Title</h4>
-							</div>
-							<div class="modal-body">
-								<p><img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt=""></p>
-								<p>This project was crafted for Some Name corp. Detail here a little about your job requirements and the tools used. Tell about the challenges faced and what you and your team did to solve it.</p>
-								<p><b><a href="#">Visit Site</a></b></p>
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- PORTFOLIO IMAGE 2 -->
-				<div class="col-md-4">
-					<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt="">
-							<figcaption>
-								<h5>UI DESIGN</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-
-				<!-- PORTFOLIO IMAGE 3 -->
-				<div class="col-md-4">
-					<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio03.jpg" alt="">
-							<figcaption>
-								<h5>ANDROID PAGE</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-			</div>
-
-			<!-- PORTFOLIO IMAGE 4 -->
-			<div class="row">	
-				<div class="col-md-4 ">
-					<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio04.jpg" alt="">
-							<figcaption>
-								<h5>PROFILE</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
 				
-				<!-- PORTFOLIO IMAGE 5 -->
-				<div class="col-md-4">
-					<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio05.jpg" alt="">
-							<figcaption>
-								<h5>TWITTER STATUS</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-				
-				<!-- PORTFOLIO IMAGE 6 -->
-				<div class="col-md-4">
-					<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio06.jpg" alt="">
-							<figcaption>
-								<h5>PHONE MOCKUP</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
+                <ul id="docTab" class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#dok-zapisnice" role="tab" data-toggle="tab">Zápisnice</a></li>
+                    <li><a href="#dok-dokumentacia" role="tab" data-toggle="tab">Dokumentácia</a></li>
+                </ul>
+                <div id="docTabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="dok-zapisnice">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2>Zimný semester</h2>
+                                <ol class="docs">
+                                    <li><a href="./dokumenty/zapisnice/t05_zapis_ns01.pdf">Zápisnica z neformálneho stretnutia 23.9.2014 <span class="doc-info"><i class="fa fa-file-pdf-o"></i> 198 kB</span></a></li>
+                                    <li><a href="./dokumenty/zapisnice/t05_zapis_s01.pdf">Zápisnica zo stretnutia 24.9.2014 <span class="doc-info"><i class="fa fa-file-pdf-o"></i> 241 kB</span></a></li>
+                                    <li><a href="./dokumenty/zapisnice/t05_zapis_s02.pdf">Zápisnica zo stretnutia 29.9.2014 <span class="doc-info"><i class="fa fa-file-pdf-o"></i> 240 kB</span></a></li>
+                                </ol>
+                            </div>
+                            <div class="col-lg-6" style="display: none">
+                                <h2>Letný semester</h2>
+                                čoskoro...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="dok-dokumentacia">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                čoskoro...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
 			</div>
 			<br />
 			<br />

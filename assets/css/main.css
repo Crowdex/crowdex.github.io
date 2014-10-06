@@ -222,6 +222,21 @@ margin-left: -15px;
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* Dokumenty */
+#docTabContent {
+    padding: 10px 20px;
+}
+
+#docTabContent .docs li {
+    margin: 5px 0;
+}
+
+#docTabContent .doc-info {
+    color: #a0a0a0;
+    margin-left: 5px;
+    display: inline-block;
+}
+
 /*.navbar-default {
 border-color: transparent;
 background-color: #dadada;

@@ -5,14 +5,18 @@ var teamData = [
     },
     
     { id: 2, name: "Bc. Dušan Cymorek", linkedin: null, github: null,
-      profileData: [ "Popis popis popis popis popis", "Popis popis popis popis popis popis popis popis popis popis" ]
+      profileData: [ "Bakalársky projekt Mobilné zariadenia a RFID technológia v knižnici (C++).",
+                     "Má skúsenosti s programovacími jazykmi Java, C, C++ a SQL databázami.",
+                     "Pracovné skúsenosti získava v oblasti správy Windows a sieťovej infraštruktúry.",
+                     "Zaujíma sa o hardvér a správu systémov a sietí.",
+                     "Vo voľnom čase rád číta knihy, sleduje filmy, hrá počítačové hry a sleduje diane doma i vo svete." ]
     },
     
     { id: 3, name: "Bc. Peter Gašpar", linkedin: "https://www.linkedin.com/pub/peter-gašpar/91/968/95/", github: "petergaspar",
       profileData: [ "Bakalársky projekt Odporúčanie s využitím osobných vyjadrení.",
                      "Má pokročilé vedomosti a skúsenosti s programovacím jazykom PHP.",
                      "V práci nadobudol základné znalosti frameworku Nette.",
-                     "Počas štúdia sa oboznámil najmä s jazykmi C, Java, MySQL.",
+                     "Počas štúdia sa oboznámil najmä s jazykmi C, Java, SQL.",
                      "Zaujíma sa o webové technológie a tvorbu webových aplikácií.",
                      "Vo voľnom čase najviac obľubuje čítanie kníh, sledovanie komediálnych seriálov a šport."
                    ]
