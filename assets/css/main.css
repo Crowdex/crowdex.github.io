@@ -114,6 +114,113 @@ margin-left: -15px;
 	background: #2b2b2b;
 }
 
+/* Profily ludi. */
+.profile-data p {
+    padding-top: 5px;
+}
+
+.profile-data .profile-data-div {
+    padding-top: 25px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+.profile-data .profile-data-div:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.modal-profiles {
+    padding: 0;
+}
+
+.modal-profiles-header {
+    background: #3498db;
+    background: -moz-linear-gradient(top, #3498db 0%, #2480bd 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #3498db), color-stop(100%, #2480bd));
+    background: -webkit-linear-gradient(top, #3498db 0%, #2480bd 100%);
+    background: -o-linear-gradient(top, #3498db 0%, #2480bd 100%);
+    background: -ms-linear-gradient(top, #3498db 0%, #2480bd 100%);
+    background: linear-gradient(to bottom, #3498db 0%, #2480bd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3498db', endColorstr='#2480bd', GradientType=0 );
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.modal-profiles-header a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.modal-profiles-header a:hover {
+    color: #ffffff;
+}
+
+.modal-profiles-header .profile-picture {
+    padding: 10px 10px 10px 20px;
+}
+
+.modal-profiles-header .profile-details {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.modal-profiles-header .profile-details .name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.modal-profiles-header .profile-details .links {
+    font-size: 15px;
+}
+
+.modal-profiles-header .profile-details .links .link {
+    margin-right: 10px;
+}
+
+.modal-profiles-header .profile-details .links .link:last-child {
+    margin-right: 0;
+}
+
+.modal-profiles-body .modal-profiles-arrow {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #2480bd;
+    margin: 0 auto;
+}
+
+.modal-profiles-body ul {
+    margin: 10px 0 20px;
+}
+
+.modal-profiles-body ul li {
+    margin: 10px 0;
+    list-style-type: square;
+}
+
+.modal-profiles-footer {
+    background: #ffffff;
+    -webkit-box-shadow: inset 0px 34px 34px -34px rgba(240,240,240,1);
+    -moz-box-shadow: inset 0px 34px 34px -34px rgba(240,240,240,1);
+    box-shadow: inset 0px 34px 34px -34px rgba(240,240,240,1);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 15px 0 10px;
+}
+
+.modal-profiles-footer ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.modal-profiles-footer .footer-pre-title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
 
 /*.navbar-default {
 border-color: transparent;
