@@ -9,7 +9,7 @@ var teamData = [
                      "Má skúsenosti s programovacími jazykmi Java, C, C++ a SQL databázami.",
                      "Pracovné skúsenosti získava v oblasti správy Windows a sieťovej infraštruktúry.",
                      "Zaujíma sa o hardvér a správu systémov a sietí.",
-                     "Vo voľnom čase rád číta knihy, sleduje filmy, hrá počítačové hry a sleduje diane doma i vo svete." ]
+                     "Vo voľnom čase rád číta knihy, sleduje filmy, hrá počítačové hry a sleduje dianie doma i vo svete." ]
     },
     
     { id: 3, name: "Bc. Peter Gašpar", linkedin: "https://www.linkedin.com/pub/peter-gašpar/91/968/95/", github: "petergaspar",
