@@ -1,9 +1,9 @@
 var teamData = [
 
     { id: 1, name: "Ing. Michal Kompan, PhD.", linkedin: null, github: null, role: "Vedúci tímu",
-      profileData: [ "Bakalársky projekt \"Softvérový návrh v medzinárodnej súťaži\".",
-                     "Diplomový projekt \"Personalizované odporúčanie zaujímavých textov\".",
-                     "Dizertačný projekt \"Group and single-user modelling for personalised recommendation\".",
+      profileData: [ "Bakalársky projekt Softvérový návrh v medzinárodnej súťaži.",
+                     "Diplomový projekt Personalizované odporúčanie zaujímavých textov.",
+                     "Dizertačný projekt Group and single-user modelling for personalised recommendation.",
                      "Má skúsenosti s Ruby, Java, C, PostgreSQL, MySQL.",
                      "Zaujíma sa o Web a analýzu dát.",
                      "Baví ho šport a hudba." ]
@@ -63,7 +63,7 @@ var teamData = [
     },
     
     { id: 8, name: "Bc. Štefan Šmihla", linkedin: "https://www.linkedin.com/pub/%C5%A1tefan-%C5%A1mihla/85/628/352/en", github: null, role: "",
-      profileData: [ "Bakalársky projekt \"Vplyv biometrických charakteristík používateľa na autentifikáciu pod smartfónovou platformou\".", 
+      profileData: [ "Bakalársky projekt Vplyv biometrických charakteristík používateľa na autentifikáciu pod smartfónovou platformou.", 
                      "Má skúsenosti Python, Ruby, Java, C, PostgreSQL, MySQL.", 
                      "Pracovné skúsenosti API & Integration developer (Python, MySQL) a APi community support.", 
                      "Zaujíma sa o bezpečnosť, integrovateľnosť, webový backend, mobilné technológie.", 
