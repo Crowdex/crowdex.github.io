@@ -1,6 +1,6 @@
 var teamData = [
 
-    { id: 1, name: "Ing. Michal Kompan, PhD.", linkedin: null, github: null, role: "Vedúci tímu",
+    { id: 1, name: "Ing. Michal Kompan, PhD.", linkedin: null, github: null, role: "Mentor tímu",
       profileData: [ "Bakalársky projekt Softvérový návrh v medzinárodnej súťaži.",
                      "Diplomový projekt Personalizované odporúčanie zaujímavých textov.",
                      "Dizertačný projekt Group and single-user modelling for personalised recommendation.",
