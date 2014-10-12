@@ -1,10 +1,15 @@
 var teamData = [
 
-    { id: 1, name: "Ing. Michal Kompan, PhD.", linkedin: null, github: null,
-      profileData: [ "Popis popis popis popis popis", "Popis popis popis popis popis popis popis popis popis popis" ]
+    { id: 1, name: "Ing. Michal Kompan, PhD.", linkedin: null, github: null, role: "Vedúci tímu",
+      profileData: [ "Bakalársky projekt \"Softvérový návrh v medzinárodnej súťaži\".",
+                     "Diplomový projekt \"Personalizované odporúčanie zaujímavých textov\".",
+                     "Dizertačný projekt \"Group and single-user modelling for personalised recommendation\".",
+                     "Má skúsenosti s Ruby, Java, C, PostgreSQL, MySQL.",
+                     "Zaujíma sa o Web a analýzu dát.",
+                     "Baví ho šport a hudba." ]
     },
     
-    { id: 2, name: "Bc. Dušan Cymorek", linkedin: null, github: null,
+    { id: 2, name: "Bc. Dušan Cymorek", linkedin: null, github: null, role: "",
       profileData: [ "Bakalársky projekt Mobilné zariadenia a RFID technológia v knižnici (C++).",
                      "Má skúsenosti s programovacími jazykmi Java, C, C++ a SQL databázami.",
                      "Pracovné skúsenosti získava v oblasti správy Windows a sieťovej infraštruktúry.",
@@ -12,7 +17,7 @@ var teamData = [
                      "Vo voľnom čase rád číta knihy, sleduje filmy, hrá počítačové hry a sleduje dianie doma i vo svete." ]
     },
     
-    { id: 3, name: "Bc. Peter Gašpar", linkedin: "https://www.linkedin.com/pub/peter-gašpar/91/968/95/", github: "petergaspar",
+    { id: 3, name: "Bc. Peter Gašpar", linkedin: "https://www.linkedin.com/pub/peter-gašpar/91/968/95/", github: "petergaspar", role: "",
       profileData: [ "Bakalársky projekt Odporúčanie s využitím osobných vyjadrení.",
                      "Má pokročilé vedomosti a skúsenosti s programovacím jazykom PHP.",
                      "V práci nadobudol základné znalosti frameworku Nette.",
@@ -22,7 +27,7 @@ var teamData = [
                    ]
     },
     
-    { id: 4, name: "Bc. Vlamidír Ľalík", linkedin: "https://www.linkedin.com/pub/vladim%C3%ADr-%C4%BEal%C3%ADk/90/a28/3b4", github: null,
+    { id: 4, name: "Bc. Vlamidír Ľalík", linkedin: "https://www.linkedin.com/pub/vladim%C3%ADr-%C4%BEal%C3%ADk/90/a28/3b4", github: null, role: "",
       profileData: [ "Bakalársky projekt Klientská časť pre bezdrôtové ovládanie pohybu vo virtuálnom priestore Android(Java), Unity3D (C#).",
                      "Má skúsenosti Javou, Php frameworkom (codeigniter), MySQL databázami, C++.",
                      "Pracovné skúsenosti s webovými aplikáciami (Wordpress).",
@@ -30,7 +35,7 @@ var teamData = [
                      "Baví ho snowboard, fitness, horský bicykel." ]
     },
     
-    { id: 5, name: "Bc. Michal Polko", linkedin: null, github: null,
+    { id: 5, name: "Bc. Michal Polko", linkedin: null, github: null, role: "",
       profileData: [ "Bakalársky projekt Zobrazovanie svetelných polí v prostredí webového prehliadača.",
                      "Má pokročilé znalosti jazyka JavaScript, ktoré využíva pri vývoji webových aplikácií.",
                      "Má skúsenosti s jazykmi PHP, C, Java, Go a s prácou s WebGL/OpenGL.",
@@ -38,7 +43,7 @@ var teamData = [
                      "Baví ho cestovanie po severských krajinách a sledovanie dobrých seriálov (t.j. Top Gear)." ]
     },
     
-    { id: 6, name: "Bc. Slavomír Šárik", linkedin: "https://www.linkedin.com/pub/slavom%C3%ADr-%C5%A1%C3%A1rik/96/4b1/610", github: "slavosarik",
+    { id: 6, name: "Bc. Slavomír Šárik", linkedin: "https://www.linkedin.com/pub/slavom%C3%ADr-%C5%A1%C3%A1rik/96/4b1/610", github: "slavosarik", role: "",
       profileData: [ "Bakalársky projekt Vytváranie databázových SQL dopytov v prirodzenom jazyku (Java, MySQL).",
                      "Pracovná skúsenosť v startupe s RubyOnRails.",
                      "Má skúsenosti s C, Javou, SQL databázami a webovými aplikáciami v Jave a RubyOnRails.",
@@ -47,7 +52,7 @@ var teamData = [
                    ]
     },
     
-    { id: 7, name: "Bc. Miroslav Šafárik", linkedin: null, github: null,
+    { id: 7, name: "Bc. Miroslav Šafárik", linkedin: null, github: null, role: "",
       profileData: [ "Bakalárske štúdium ukončil na matfyze v Bratislave vypracovaním bakalárskej práce na tému Informačný systém pre autoškoly. ",
                      "Pri jej tvorbe získal skúsenosti s frameworkom .NET (najmä s technológiami ADO.NET Entity Framework, WCF a WPF) a jazykom C#. ",
                      "Počas štúdia sa tiež oboznámil s jazykmi C++, Java, SQL, PL/SQL a PHP. ",
@@ -57,7 +62,7 @@ var teamData = [
                    ]
     },
     
-    { id: 8, name: "Bc. Štefan Šmihla", linkedin: "https://www.linkedin.com/pub/%C5%A1tefan-%C5%A1mihla/85/628/352/en", github: null,
+    { id: 8, name: "Bc. Štefan Šmihla", linkedin: "https://www.linkedin.com/pub/%C5%A1tefan-%C5%A1mihla/85/628/352/en", github: null, role: "",
       profileData: [ "Bakalársky projekt \"Vplyv biometrických charakteristík používateľa na autentifikáciu pod smartfónovou platformou\".", 
                      "Má skúsenosti Python, Ruby, Java, C, PostgreSQL, MySQL.", 
                      "Pracovné skúsenosti API & Integration developer (Python, MySQL) a APi community support.", 
@@ -84,7 +89,12 @@ function fullfillProfiles() {
     //user-desc-7
     $.each(teamData, function(key, data) {
         
-        $("[rel='user-desc-"+key+"']").html(teamData[key].profileData[1].substr(0, 50)+"... <i class=\"fa fa-plus-circle\"></i>");
+        if (key == 0) {
+            $("[rel='user-desc-"+key+"']").html(teamData[key].profileData[3].substr(0, 50)+"... <i class=\"fa fa-plus-circle\"></i>");
+        }
+        else {
+            $("[rel='user-desc-"+key+"']").html(teamData[key].profileData[1].substr(0, 50)+"... <i class=\"fa fa-plus-circle\"></i>");
+        }
         
     });
 
@@ -101,7 +111,7 @@ function loadTeamProfile(id, modal) {
     $("[rel='team-user-picture']").attr("src", "assets/img/team/"+teamData[id].id+".jpg");
     $("[rel='team-user-name']").html(teamData[id].name);
     
-    if (teamData[id].linkedin) {
+    /*if (teamData[id].linkedin) {
         $("[rel='team-user-links'] .linkedin").show().attr("href", teamData[id].linkedin);
         $("[rel='team-user-links'] .linkedin span").html("Pracovný profil");
     }
@@ -115,7 +125,9 @@ function loadTeamProfile(id, modal) {
     }
     else {
         $("[rel='team-user-links'] .github").hide();
-    }
+    }*/
+    
+    $("[rel='team-user-role']").html(teamData[id].role);
     
     $("[rel='team-user-data']").html("");
     
