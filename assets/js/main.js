@@ -81,6 +81,10 @@ $(function() {
     fullfillProfiles();
     
     $('[data-toggle="tooltip"]').tooltip();
+    
+    $(document).on('click',function() {
+        $('.navbar-collapse').collapse('hide');
+    });
 
 });
 
