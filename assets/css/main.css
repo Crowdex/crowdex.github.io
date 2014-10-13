@@ -312,8 +312,8 @@ border: 0px solid transparent;
 	padding: 8px;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: rgba(0, 0, 0, 0.5);
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover {
+    /*background-color: rgba(0, 0, 0, 0.5);*/
     color: #ffffff;
 }
 
@@ -500,7 +500,34 @@ blockquote cite:before {
 }
 
 /* Links */
-a {
+#active-menu {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 50px;
+	width: 0;
+	position: fixed;
+}
+
+#active-menu.transitions {
+	-webkit-transition: left 0.3s ease-in;
+	-webkit-transition-property: left, width;
+	-moz-transition: left 0.3s ease-in;
+	-moz-transition-property: left, width;
+	transition: left 0.3s ease-in;
+	transition-property: left, width;
+}
+
+@media (max-width: 767px) {
+	#active-menu {
+		display: none;
+	}
+
+	.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover/*, .navbar-inverse .navbar-nav > .active > a:focus*/ {
+	    background-color: rgba(0, 0, 0, 0.5);
+	    color: #ffffff;
+	}
+}
+
+/*a {
     color: #3498db;
     word-wrap: break-word;
 
@@ -525,7 +552,7 @@ a:after {
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
-}
+}*/
 
 
 

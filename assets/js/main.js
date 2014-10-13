@@ -140,3 +140,19 @@ function loadTeamProfile(id, modal) {
     });
 
 }
+
+jQuery(window).on('resize', function() {
+    // Opravit poziciu aktivneho prvku menu po resize
+    var activeItem = jQuery('.nav > .active');
+    if (activeItem.length > 0) {
+        var aM = jQuery('#active-menu');
+        var offset = activeItem.offset();
+        var width = activeItem.width();
+
+        // Zmenit poziciu bez animacii
+        aM.removeClass('transitions');
+        aM.width(width).css('left', offset.left);
+        aM.offset(); // Force reflow
+        aM.addClass('transitions');
+    }
+});
