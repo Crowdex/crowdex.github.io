@@ -226,6 +226,16 @@ margin-left: -15px;
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* Plan */
+.plan-inner {
+    padding: 10px 20px;
+}
+
+.plan-status {
+    text-align: center;
+    width: 100px;
+}
+
 /* Dokumenty */
 #docTabContent {
     padding: 10px 20px;
