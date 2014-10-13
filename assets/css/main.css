@@ -296,6 +296,7 @@ border: 0px solid transparent;
 
 .navbar-inverse .navbar-nav > li > a {
     color: #6b6b6b;
+    transition: color 1s;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
