@@ -73,6 +73,9 @@ body {
     resize: vertical;
 }
 
+.plan-status-ok {
+    color: #33ea33;
+}
 
 /* ==========================================================================
    General styles
