@@ -27,7 +27,7 @@ var teamData = [
                    ]
     },
     
-    { id: 4, name: "Bc. Vlamidír Ľalík", linkedin: "https://www.linkedin.com/pub/vladim%C3%ADr-%C4%BEal%C3%ADk/90/a28/3b4", github: null, role: "",
+    { id: 4, name: "Bc. Vladimír Ľalík", linkedin: "https://www.linkedin.com/pub/vladim%C3%ADr-%C4%BEal%C3%ADk/90/a28/3b4", github: null, role: "",
       profileData: [ "Bakalársky projekt Klientská časť pre bezdrôtové ovládanie pohybu vo virtuálnom priestore Android(Java), Unity3D (C#).",
                      "Má skúsenosti Javou, Php frameworkom (codeigniter), MySQL databázami, C++.",
                      "Pracovné skúsenosti s webovými aplikáciami (Wordpress).",
