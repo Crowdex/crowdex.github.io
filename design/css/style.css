@@ -1,17 +1,101 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
 .btn {
     border: 0;
+    border-radius: 4px;
+    border-bottom: 2px solid #fafafa;
+    transition: background-color 0.5s;
+}
+
+.btn:focus, .btn:active, .btn:hover {
+    border-bottom-color: #fafafa;
 }
 
 .btn-default {
-    background-color: #f0f0f0;
+    background-color: #f5f5f5;
+}
+
+.btn-default:focus, .btn-default:active, .btn-default:hover {
+    background-color: #eeeeee;
 }
 
 .btn-primary {
-    
+    background-color: #009642;
+    font-weight: 500;
 }
 
-.btn-warning {
-    
+.btn-primary:focus, .btn-primary:active, .btn-primary:hover {
+    background-color: #008038;
+}
+
+.btn:disabled {
+    border-color: #fafafa;
+    background-color: #fafafa;
+    color: #bdbdbd;
+}
+
+label {
+    cursor: pointer;
+    color: #7e7e7e;
+    transition: color 0.5s;
+}
+
+.checkbox input[type="checkbox"]:checked + label, .radio input[type="radio"]:checked + label {
+    color: #000000;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+    background-color: #009642;
+    border-color: #009642;
+}
+
+.radio-primary input[type="radio"] + label::after {
+    background-color: #009642;
+}
+
+.radio-primary input[type="radio"]:checked + label::before {
+    border-color: #009642;
+}
+
+.radio-primary input[type="radio"]:checked + label::after {
+    background-color: #009642;
+}
+
+input[type="text"].form-control, input[type="password"].form-control, textarea.form-control {
+    box-shadow: none;
+    cursor: pointer;
+    border: 1px solid #f0f0f0;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    transition: background-color 0.5s;
+}
+
+input[type="text"].form-control:focus, input[type="password"].form-control:focus, textarea.form-control:focus {
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee;
+    border-bottom-width: 2px;
+    box-shadow: none;
+}
+
+input[type="text"]:disabled, input[type="password"]:disabled, textarea:disabled {
+    background-color: #fafafa;
+    color: #bdbdbd;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover {
+    outline: 0px !important;
+    -webkit-appearance: none;
 }
 
 .nav-tabs {
@@ -27,11 +111,13 @@
     border-bottom: 4px solid transparent;
     padding: 10px 15px 6px;
     transition: border-bottom 0.5s, color 0.5s;
+    color: #009642;
 }
 
 .nav-tabs > li > a:hover {
     background-color: transparent;
     border-bottom: 4px solid #f0f0f0;
+    color: #008038;
 }
 
 .nav-tabs > li.active > a,
@@ -44,25 +130,68 @@
     border-radius: 0;
 }
 
-label {
-    cursor: pointer;
-    color: #7e7e7e;
+/* Modalne okno */
+.modal .modal-header {
+    border-radius: 4px 4px 0 0;
+    background-color: #fafafa;
+    border-bottom-color: #eeeeee;
 }
 
-input.form-control:focus + label, input.form-control:active + label, textarea.form-control:focus + label, textarea.form-control:active + label,
-input[type="checkbox"].form-control:checked + label, input[type="radio"].form-control:checked + label {
-    color: #000000;
+.modal .modal-footer {
+    border-top-color: #eeeeee;
 }
 
-input[type="text"].form-control, input[type="password"].form-control, textarea.form-control {
+.modal h4 {
+    color: #009642;
+}
+
+/* Panel */
+.panel-group .panel, .panel {
+    border: 0;
+    border-bottom: 2px solid #fafafa;
+    border-radius: 4px 4px 0 0;
     box-shadow: none;
-    cursor: pointer;
+    transition: border-color 0.25s;
 }
 
-input[type="text"].form-control:focus, input[type="password"].form-control:focus, textarea.form-control:focus {
-    background-color: #f0f0f0;
-    border: 1px solid #f0f0f0;
-    webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.12);
-    -moz-box-shadow:    2px 2px 3px 0px rgba(0, 0, 0, 0.12);
-    box-shadow:         2px 2px 3px 0px rgba(0, 0, 0, 0.12);
+.panel-group .panel:hover, .panel:hover {
+    border-bottom-color: #eeeeee;
+}
+
+.panel {
+    border: 0;
+}
+
+.panel.panel-default .panel-heading {
+    background-color: #eeeeee;
+}
+
+.panel.panel-default .panel-heading.active {
+    background-color: #009642;
+    color: #ffffff;
+}
+
+.panel > .panel-heading + .panel-collapse > .panel-body {
+    border: 1px solid transparent;
+    border-style: none solid;
+    transition: border-color 0.25s;
+}
+
+.panel:hover > .panel-heading + .panel-collapse > .panel-body {
+    border-right-color: #eeeeee;
+    border-left-color: #eeeeee;
+}
+
+.panel.panel-collapse + .panel-heading {
+    text-decoration: underline;
+}
+
+/* Strankovanie */
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination >.active > span:focus {
+    background-color: #009642;
+    border-color: #009642;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #757575;
 }
