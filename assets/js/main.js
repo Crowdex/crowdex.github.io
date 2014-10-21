@@ -9,7 +9,7 @@ var teamData = [
                      "Baví ho šport a hudba." ]
     },
     
-    { id: 2, name: "Bc. Dušan Cymorek", linkedin: null, github: null, role: "",
+    { id: 2, name: "Bc. Dušan Cymorek", linkedin: null, github: null, role: "Manažment dokumentácie",
       profileData: [ "Bakalársky projekt Mobilné zariadenia a RFID technológia v knižnici (C++).",
                      "Má skúsenosti s programovacími jazykmi Java, C, C++ a SQL databázami.",
                      "Pracovné skúsenosti získava v oblasti správy Windows a sieťovej infraštruktúry.",
@@ -17,7 +17,7 @@ var teamData = [
                      "Vo voľnom čase rád číta knihy, sleduje filmy, hrá počítačové hry a sleduje dianie doma i vo svete." ]
     },
     
-    { id: 3, name: "Bc. Peter Gašpar", linkedin: "https://www.linkedin.com/pub/peter-gašpar/91/968/95/", github: "petergaspar", role: "",
+    { id: 3, name: "Bc. Peter Gašpar", linkedin: "https://www.linkedin.com/pub/peter-gašpar/91/968/95/", github: "petergaspar", role: "Manažment rozvrhu",
       profileData: [ "Bakalársky projekt Odporúčanie s využitím osobných vyjadrení.",
                      "Má pokročilé vedomosti a skúsenosti s programovacím jazykom PHP.",
                      "V práci nadobudol základné znalosti frameworku Nette.",
@@ -27,7 +27,7 @@ var teamData = [
                    ]
     },
     
-    { id: 4, name: "Bc. Vladimír Ľalík", linkedin: "https://www.linkedin.com/pub/vladim%C3%ADr-%C4%BEal%C3%ADk/90/a28/3b4", github: null, role: "",
+    { id: 4, name: "Bc. Vladimír Ľalík", linkedin: "https://www.linkedin.com/pub/vladim%C3%ADr-%C4%BEal%C3%ADk/90/a28/3b4", github: null, role: "Manažment rizík",
       profileData: [ "Bakalársky projekt Klientská časť pre bezdrôtové ovládanie pohybu vo virtuálnom priestore Android(Java), Unity3D (C#).",
                      "Má skúsenosti Javou, Php frameworkom (codeigniter), MySQL databázami, C++.",
                      "Pracovné skúsenosti s webovými aplikáciami (Wordpress).",
@@ -35,7 +35,7 @@ var teamData = [
                      "Baví ho snowboard, fitness, horský bicykel." ]
     },
     
-    { id: 5, name: "Bc. Michal Polko", linkedin: null, github: null, role: "",
+    { id: 5, name: "Bc. Michal Polko", linkedin: null, github: null, role: "Manažment rozsahu",
       profileData: [ "Bakalársky projekt Zobrazovanie svetelných polí v prostredí webového prehliadača.",
                      "Má pokročilé znalosti jazyka JavaScript, ktoré využíva pri vývoji webových aplikácií.",
                      "Má skúsenosti s jazykmi PHP, C, Java, Go a s prácou s WebGL/OpenGL.",
@@ -43,7 +43,7 @@ var teamData = [
                      "Baví ho cestovanie po severských krajinách a sledovanie dobrých seriálov (t.j. Top Gear)." ]
     },
     
-    { id: 6, name: "Bc. Slavomír Šárik", linkedin: "https://www.linkedin.com/pub/slavom%C3%ADr-%C5%A1%C3%A1rik/96/4b1/610", github: "slavosarik", role: "",
+    { id: 6, name: "Bc. Slavomír Šárik", linkedin: "https://www.linkedin.com/pub/slavom%C3%ADr-%C5%A1%C3%A1rik/96/4b1/610", github: "slavosarik", role: "Manažment verzií, konfigurácií softvéru",
       profileData: [ "Bakalársky projekt Vytváranie databázových SQL dopytov v prirodzenom jazyku (Java, MySQL).",
                      "Pracovná skúsenosť v startupe s RubyOnRails.",
                      "Má skúsenosti s C, Javou, SQL databázami a webovými aplikáciami v Jave a RubyOnRails.",
@@ -52,7 +52,7 @@ var teamData = [
                    ]
     },
     
-    { id: 7, name: "Bc. Miroslav Šafárik", linkedin: null, github: null, role: "",
+    { id: 7, name: "Bc. Miroslav Šafárik", linkedin: null, github: null, role: "Manažment komunikácie",
       profileData: [ "Bakalárske štúdium ukončil na matfyze v Bratislave vypracovaním bakalárskej práce na tému Informačný systém pre autoškoly. ",
                      "Pri jej tvorbe získal skúsenosti s frameworkom .NET (najmä s technológiami ADO.NET Entity Framework, WCF a WPF) a jazykom C#. ",
                      "Počas štúdia sa tiež oboznámil s jazykmi C++, Java, SQL, PL/SQL a PHP. ",
@@ -62,7 +62,7 @@ var teamData = [
                    ]
     },
     
-    { id: 8, name: "Bc. Štefan Šmihla", linkedin: "https://www.linkedin.com/pub/%C5%A1tefan-%C5%A1mihla/85/628/352/en", github: null, role: "",
+    { id: 8, name: "Bc. Štefan Šmihla", linkedin: "https://www.linkedin.com/pub/%C5%A1tefan-%C5%A1mihla/85/628/352/en", github: null, role: "Manažment testovania, prehliadok",
       profileData: [ "Bakalársky projekt Vplyv biometrických charakteristík používateľa na autentifikáciu pod smartfónovou platformou.", 
                      "Má skúsenosti Python, Ruby, Java, C, PostgreSQL, MySQL.", 
                      "Pracovné skúsenosti API & Integration developer (Python, MySQL) a APi community support.", 
