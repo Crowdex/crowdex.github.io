@@ -43,7 +43,7 @@ var teamData = [
                      "Baví ho cestovanie po severských krajinách a sledovanie dobrých seriálov (t.j. Top Gear)." ]
     },
     
-    { id: 6, name: "Bc. Slavomír Šárik", linkedin: "https://www.linkedin.com/pub/slavom%C3%ADr-%C5%A1%C3%A1rik/96/4b1/610", github: "slavosarik", role: "Manažment verzií, konfigurácií softvéru",
+    { id: 6, name: "Bc. Slavomír Šárik", linkedin: "https://www.linkedin.com/pub/slavom%C3%ADr-%C5%A1%C3%A1rik/96/4b1/610", github: "slavosarik", role: "Manažment verzií a konfigurácií softvéru",
       profileData: [ "Bakalársky projekt Vytváranie databázových SQL dopytov v prirodzenom jazyku (Java, MySQL).",
                      "Pracovná skúsenosť v startupe s RubyOnRails.",
                      "Má skúsenosti s C, Javou, SQL databázami a webovými aplikáciami v Jave a RubyOnRails.",
