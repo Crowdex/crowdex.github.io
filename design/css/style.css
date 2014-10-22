@@ -305,6 +305,10 @@ input[type="text"].navbar-search, input[type="text"]:active.navbar-search, input
     color: #ffffff;
 }
 
+.alert-icon {
+    margin: 0 8px;
+}
+
 #alerts-container .alert-info {
     background-color: #72d572;
 }
