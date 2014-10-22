@@ -214,9 +214,7 @@ button:hover {
     border-radius: 0;
     color: #ffffff;
     font-size: 1.2em;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.13);
-    -moz-box-shadow:    0px 5px 5px 0px rgba(0, 0, 0, 0.13);
-    box-shadow:         0px 5px 5px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.13);
 }
 
 .navbar-default .navbar-nav > li > a {
