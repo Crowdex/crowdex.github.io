@@ -90,7 +90,6 @@ $(function() {
 
 function fullfillProfiles() {
 
-    //user-desc-7
     $.each(teamData, function(key, data) {
         
         if (key == 0) {
@@ -99,6 +98,8 @@ function fullfillProfiles() {
         else {
             $("[rel='user-desc-"+key+"']").html(teamData[key].profileData[1].substr(0, 50)+"... <i class=\"fa fa-plus-circle\"></i>");
         }
+        
+        $("[rel='user-role-"+key+"']").html(teamData[key].role);
         
     });
 

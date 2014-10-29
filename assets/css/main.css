@@ -133,6 +133,17 @@ margin-left: -15px;
     cursor: pointer;
 }
 
+.profile-data .profile-data-div p.user-role {
+    margin: 0 0;
+    padding-top: 0;
+}
+
+.profile-data .profile-data-div p.user-role + p {
+    font-size: 0.9em;
+    padding-top: 0;
+    color: #999999;
+}
+
 .modal-profiles {
     padding: 0;
 }
