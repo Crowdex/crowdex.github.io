@@ -62,7 +62,7 @@ var teamData = [
                    ]
     },
     
-    { id: 8, name: "Bc. Štefan Šmihla", linkedin: "https://www.linkedin.com/pub/%C5%A1tefan-%C5%A1mihla/85/628/352/en", github: null, role: "Manažment testovania, prehliadok",
+    { id: 8, name: "Bc. Štefan Šmihla", linkedin: "https://www.linkedin.com/pub/%C5%A1tefan-%C5%A1mihla/85/628/352/en", github: null, role: "Manažment testovania a prehliadok",
       profileData: [ "Bakalársky projekt Vplyv biometrických charakteristík používateľa na autentifikáciu pod smartfónovou platformou.", 
                      "Má skúsenosti Python, Ruby, Java, C, PostgreSQL, MySQL.", 
                      "Pracovné skúsenosti API & Integration developer (Python, MySQL) a APi community support.", 
