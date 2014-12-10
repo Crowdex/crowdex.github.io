@@ -35,7 +35,7 @@ var teamData = [
                      "Baví ho snowboard, fitness, horský bicykel." ]
     },
     
-    { id: 5, name: "Bc. Michal Polko", linkedin: null, github: null, role: "Manažment rozsahu",
+    { id: 5, name: "Bc. Michal Polko", linkedin: null, github: null, role: "Manažment rozsahu a monitorovania",
       profileData: [ "Bakalársky projekt Zobrazovanie svetelných polí v prostredí webového prehliadača.",
                      "Má pokročilé znalosti jazyka JavaScript, ktoré využíva pri vývoji webových aplikácií.",
                      "Má skúsenosti s jazykmi PHP, C, Java, Go a s prácou s WebGL/OpenGL.",
