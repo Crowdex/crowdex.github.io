@@ -40,7 +40,7 @@ var teamData = [
                      "Má pokročilé znalosti jazyka JavaScript, ktoré využíva pri vývoji webových aplikácií.",
                      "Má skúsenosti s jazykmi PHP, C, Java, Go a s prácou s WebGL/OpenGL.",
                      "Zaujíma sa o webové technológie a počítačovú grafiku.",
-                     "Baví ho cestovanie po severských krajinách a sledovanie dobrých seriálov (t.j. Top Gear)." ]
+                     "Baví ho cestovanie, fotenie, sledovanie Top Gearu." ]
     },
     
     { id: 6, name: "Bc. Slavomír Šárik", linkedin: "https://www.linkedin.com/pub/slavom%C3%ADr-%C5%A1%C3%A1rik/96/4b1/610", github: "slavosarik", role: "Manažment podpory vývoja a integrácie",
