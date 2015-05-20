@@ -52,7 +52,7 @@ var teamData = [
                    ]
     },
     
-    { id: 7, name: "Bc. Miroslav Šafárik", linkedin: null, github: null, role: "Manažment komunikácie",
+    { id: 7, name: "Bc. Miroslav Šafárik", linkedin: null, github: null, role: "Člen tímu počas zimného semestra - Manažment komunikácie",
       profileData: [ "Bakalárske štúdium ukončil na matfyze v Bratislave vypracovaním bakalárskej práce na tému Informačný systém pre autoškoly. ",
                      "Pri jej tvorbe získal skúsenosti s frameworkom .NET (najmä s technológiami ADO.NET Entity Framework, WCF a WPF) a jazykom C#. ",
                      "Počas štúdia sa tiež oboznámil s jazykmi C++, Java, SQL, PL/SQL a PHP. ",
